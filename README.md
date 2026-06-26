@@ -28,6 +28,26 @@ The work emphasizes secure communication, traffic control, and network isolation
 
 ---
 
+### Configure Azure DDoS Protection
+
+#### Overview
+Implemented network‑level protection by deploying an Azure DDoS Protection plan and associating it with a virtual network. This lab demonstrates how Azure provides automatic mitigation against large‑scale network attacks targeting public endpoints.
+
+#### Objectives
+- Create an Azure DDoS Protection plan  
+- Deploy a virtual network  
+- Associate the DDoS plan with the VNet to enable enhanced protection  
+
+#### Tasks Performed
+- Created an Azure DDoS Protection plan to provide network‑layer defense against volumetric attacks.  
+- Deployed a virtual network to serve as the protected network boundary.  
+- Associated the DDoS Protection plan with the virtual network to activate enhanced mitigation capabilities.
+
+**Outcome:**  
+A virtual network protected by an Azure DDoS Protection plan, enabling automatic detection and mitigation of distributed denial‑of‑service attacks.
+
+---
+
 ## Key Learnings
 - Azure Virtual Networks provide isolated, private networking for cloud resources.
 - Virtual machines communicate using private IP addresses within a VNet.
